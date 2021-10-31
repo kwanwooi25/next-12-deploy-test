@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "loadjs": "^4.2.0",
     "next": "12.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/loadjs": "^4.0.1",
     "@types/node": "16.11.6",
     "@types/react": "17.0.33",
     "eslint": "7",
