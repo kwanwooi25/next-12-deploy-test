@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
+import Header from '../components/Header';
 import useNaverMap from '../hooks/useNaverMap';
 import styles from '../styles/Home.module.css';
 
@@ -19,8 +20,8 @@ const Home: NextPage = () => {
           defer
         ></script>
       </Head>
-
-      <div id="naver-map" style={{ height: '100vh', width: '100vw' }}></div>
+      <Header />
+      <div id="naver-map" style={{ height: 'calc(100vh - 100px)', width: '100vw' }}></div>
     </div>
   );
 };
